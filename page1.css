@@ -204,14 +204,14 @@
 }
 @media screen and (max-width: 600px) {
     .box {
-        width: 63%;
+        width: 95%;
     }
     .p_imgg{
-        width:70%;
+        width:100%;
         margin:4px;
     }
     .portfolio-skills {
-        width: 65%;
+        width: 95%;
         height: 4rem;
         margin-top: 1rem;
         position: relative;
@@ -221,13 +221,13 @@
         margin-left:0px;
     }
     .desss{
-        width:80%
+        width:95%
     }
     .des{
         width:90%;
     }
     .p_img {
-        width: 220px;
+        width: 385px;
         margin-left:0px;
         margin-top: 30px;
         height: auto;

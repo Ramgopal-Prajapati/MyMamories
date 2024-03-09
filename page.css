@@ -1,0 +1,189 @@
+body{
+    margin:0;
+    padding:0;
+}
+@media screen and (max-width: 1400px) {
+.mainn{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.box{
+    margin:15px 16px;
+    width:30%;
+    height:auto;
+    /* height:1000px */
+    border-radius: 3%;
+    border: 2px solid green;
+    background-color:white;
+}
+  .imges{
+    border-radius: 5%;
+    margin: 1px 2px;
+    width: 383px;
+    height: auto;
+    /* height:767px */
+}
+.video{
+    border-radius: 5%;
+    margin: 1px 2px;
+    width: 383px;
+    height: 767px;
+}
+
+ 
+ .des{
+    width:97%;
+    margin:9px;
+    font-size:20px;
+    height:auto;
+    /* height:210 */
+    table-layout:fixed;
+
+ }
+ .vedio{
+    border-radius: 5%;
+    margin: 1px 2px;
+    width: 395px;
+    height: 530px
+ }
+ .p_circule{
+    margin-top:15px;
+    width:100%;
+    height:auto;
+    border-radius: 30%;
+    margin-bottom:15px;
+
+ }
+ .p_img{
+    width: auto;
+    height: 436px;
+    border-radius: 40%;
+    margin-left: 17%;
+    margin-top: 30px;
+ }
+ .p_imgg{
+    margin-left: 53%;
+    margin-bottom: 150px;
+    margin-top: -394px;
+ }
+ .p_imgsg{
+    width: auto;
+    height: 425px;
+    border-radius: 40%;
+    margin-left: 9%;
+ }
+ .p_imggsg{
+    margin-left: 60%;
+    margin-bottom: 150px;
+    margin-top: -287px;
+ }
+
+
+ .portfolio-skills {
+   width:300px;
+   height: 4rem;
+   margin-top: 3.5rem;
+   margin-left:31.5rem;
+   position: relative;
+   background-color:#81ad81;
+   border-radius:7px;
+   margin-bottom:40px;
+ }
+ 
+  .btn-2{
+    margin-top:7px;
+    margin-left:28px;
+    width: 15rem;
+    height:3rem;
+    border-radius:15px;
+  
+}
+.footer-in-home{
+    margin-left:32rem;
+    font-size:30px;
+}
+}
+
+/* For 1024 to 600 px ke liye Below */
+
+@media screen and (max-width: 600px) { 
+    .p_img {
+        width: auto;
+        border-radius: 40%;
+        margin-left: 16%;
+        height: 450px;
+}
+.portfolio-skills {
+    width: 300px;
+    height: 4rem;
+    margin-top: 3.5rem;
+    margin-left: 0.5rem;
+    position: relative;
+    background-color: #81ad81;
+    border-radius: 7px;
+    margin-botto
+}
+.p_imgg {
+    margin-left: 11%;
+    margin-bottom: 53px;
+    margin-top: 80px;
+}
+.box{
+    margin: 33px 10px;
+    width: 94%;
+    height: auto;
+    border-radius: 3%;
+    border: 2px solid green;
+    background-color: white;
+}
+  .imges{
+    border-radius: 5%;
+    margin: 1px 2px;
+    width: 295px;
+    height: auto;
+}
+.video{
+    border-radius: 5%;
+    margin: 1px 2px;
+    width: 295px;
+    height: auto;
+}
+}
+
+
+/*
+@media screen and (max-width: 600px) {
+
+    .mainn{
+        height:100%;
+        width:355%;
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .box{
+        margin:33px 10px;
+        width:54%;
+        height:1500px;
+        border-radius: 3%;
+        border: 2px solid green;
+        background-color:white;
+    }
+      .imges{
+        border-radius: 5%;
+        margin: 7px 15px;
+        width: 622px;
+        height: 1000px;
+     }
+     .des{
+        width:97%;
+        font-size:40px;
+        margin:15px;
+        height:455px;
+        table-layout:fixed;
+    
+     }
+
+}
+*/
